@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Foodlist>
+<Food category="dosai">
+<Name>Masala Dosai</Name>
+<Price>50</Price>
+</Food>
+<Food category="dosai">
+<Name>Plain Dosai</Name>
+<Price>40</Price>
+</Food>
+<Food category="Idly">
+<Name>Idly</Name>
+<Price>40</Price>
+</Food>
+<Food category="Paratta">
+<Name>Paratta</Name>
+<Price>60</Price>
+</Food>
+<Food category="Puttu">
+<Name>Curry Puttu</Name>
+<Price>35</Price>
+</Food>
+
+</Foodlist>

@@ -1,0 +1,69 @@
+.loginbox{
+background-color:#00001a;	
+width:200px;
+height:350px;
+padding:40px;
+margin:10px;
+
+border:3px solid #ff944d;
+position:absolute;
+	top:75px;	
+	left:450px;
+}
+
+  div{
+  color:#ff0066;
+  
+}
+ 
+
+form{
+	text-align:center;
+    color: #cc0000;
+}
+.loginbox input{
+   width:100%;
+   font-size: 20px;
+   
+}
+.hx{
+	text-align: center;
+	font-size: 40px;
+	color:#662200;
+	background-color: #e6e6e6;
+}
+.size{
+	font-size:32px; 
+}
+
+.loginbox input[type="name"],input[type="password"]{
+	
+	color: #666600;
+	background: transparent;
+	height:40px;
+}
+.loginbox p{
+	color :#661a00;
+}
+.loginbox button{
+	background-color: #666600;
+	color:#00001a;
+	width:60%;
+	font-size:15px;
+}
+
+img{
+	float: top;
+}
+
+input{
+	width: 5%;
+}
+
+.orderbutton{
+	background-color: #003399;
+}
+
+.imageset{
+	right:10px;
+}
