@@ -1,14 +1,23 @@
+
+
 .loginbox{
-background-color:#00001a;	
+	
 width:200px;
-height:350px;
+height:400px;
 padding:40px;
 margin:10px;
 
+background-image: url('5.jpg');
 border:3px solid #ff944d;
 position:absolute;
 	top:75px;	
-	left:450px;
+	left:550px;
+	animation-name:example;
+	animation-duration :2s;
+}
+@keyframes example{
+	from { left:0px; }
+	to { left:550px; }
 }
 
   div{
@@ -31,6 +40,7 @@ form{
 	font-size: 40px;
 	color:#662200;
 	background-color: #e6e6e6;
+	opacity: 0.9;
 }
 .size{
 	font-size:32px; 
@@ -38,7 +48,7 @@ form{
 
 .loginbox input[type="name"],input[type="password"]{
 	
-	color: #666600;
+	color:white ;
 	background: transparent;
 	height:40px;
 }
@@ -66,4 +76,17 @@ input{
 
 .imageset{
 	right:10px;
+}
+
+.forgotbox{
+	margin:10px;
+	padding:5px;
+	border: 1px solid #e62e00;
+	width:200px;
+	top:75px;
+    left:400px;
+	position: absolute;
+}
+.forbtn{
+	background-color: #666600;
 }

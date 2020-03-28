@@ -1,0 +1,22 @@
+*{
+    padding:0px;
+    margin:0px;
+    overflow-x: hidden;
+}
+.hx{
+	text-align: center;
+	font-size: 40px;
+	color:#662200;
+	background-color: #e6e6e6;
+}
+
+
+table{
+    color: blue;
+}
+.imageset{
+	right:10px;
+}
+input{
+width:25px;
+}

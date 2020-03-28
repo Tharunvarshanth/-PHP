@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="book.css">
+    <style>
+      .success,.error{
+          color: aliceblue;
+          padding: 5px;
+        margin:5px 0 15px  0;
+      }  
+      .success{
+          background-color: green;
+      }
+      .error{
+          background-color: red;
+      }
+    </style>
+</head>
+<body>
+
+   <div class="container">
+
+    <h2 style="text-align: center;">Add Book</h2>
+
+ <div class="box">    
+        <form name="bookform" id="x">
+   <b>         
+   BookName<br> <input type="name" name="bn">   <br>
+   Author  <br> <input type="name" name="an">   <br>
+   ISBN    <br> <input type="number" name="is">
+  <br><br>      <button type="submit" name="submit"  >Submit</button>          
+     </b>   </form>
+    </div>
+
+<br><br>
+
+<p id="b"></p>
+<table class="tablealign">
+ <thead>
+     <th>BookName</th><th>Author</th><th>ISBN</th>
+ </thead>   
+ <tbody id="booklist">
+   
+ </tbody>
+ 
+</table>
+
+
+</div>
+<!--<script src="app.js"></script>    -->
+ <script src="appes.js"></script>  
+
+
+ 
+
+
+
+
+
+
+</body>
+</html>
